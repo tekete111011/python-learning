@@ -1,5 +1,5 @@
 def my_max(A):
-  max = 0
+  max = A[0]
   for i in range(len(A)):
     if max < A[i]:
       max = A[i]
