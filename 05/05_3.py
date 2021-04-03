@@ -1,6 +1,9 @@
-def max_and_min(A):
-  return print(max(A),min(A))
+def my_max(A):
+  max = 0
+  for i in range(len(A)):
+    if max < A[i]:
+      max = A[i]
+  return max
 
-n = input()
 a = list(map(int, input().split()))
-max_and_min(a)
+print(my_max(a))

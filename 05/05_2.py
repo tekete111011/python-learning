@@ -1,6 +1,5 @@
-def average(N,A):
-  return(sum(A)/N)
+def average(A):
+  return(sum(A)/len(A))
 
-n = int(input())
 a = list(map(int, input().split()))
-print(average(n,a))
+print(average(a))
